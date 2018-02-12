@@ -15,11 +15,11 @@
 			.footercopy a {color: #ffffff; text-decoration: underline;}
 			
 
-			.header {padding: 4px 30px 2px 30px;}
+			.header {padding: 4px 15px 2px 15px;}
 
 			.col425 {width: 425px!important;}
 
-			.h1 {font-size: 33px; line-height: 38px; font-weight: bold;}
+			.h1 {font-size: 21px; line-height: 38px; font-weight: bold;}
 
 			.h2, .bodycopy {color: #153643; font-family: sans-serif;}
 
@@ -68,11 +68,11 @@
                 <td class="header" bgcolor="#3a3e47">
 					<table class="col425" align="left" border="0" cellpadding="0" cellspacing="0" style="width: 100%; max-width: 425px;">
 		                <tr>
-		                	<td height="50"  style="padding: 0 50px 0 0;">
+		                	<td height="50"  style="padding: 0 15px 0 0;">
 					            <img src="image/ifusion.png" width="100" height="40" border="0" alt="ifusion" / >
 					        </td>
-		                   <td class="h1" style="padding: 5px 0 0 0;">
-					            Reset Password
+		                   <td class="h1" style="padding: 5px 0 0 0; " align="right">
+					            License Expiration Notification 
 					       </td>  
 		                </tr>
 		            </table>
@@ -82,39 +82,26 @@
             <tr>
 			  <td class="innerpadding borderbottom">
 			    <table width="115" align="left" border="0" cellpadding="0" cellspacing="0">  
-			      <tr>
+			     <!--  <tr>
 				    <td class="innerpadding borderbottom">
 				        <img src="image/usericon.png" width="100%" border="0" alt="" />
 				    </td>
-				</tr>
+				</tr> -->
 			    </table>
-			    <table class="col380" align="left" border="0" cellpadding="0" cellspacing="0" style="width: 100%; max-width: 380px;">  
+			    <table class="col380" align="left" border="0" cellpadding="0" cellspacing="0" style="width: 100%; max-width: 380px; margin-left:10%">  
 			      <tr>
 			        <td>
 			          <table width="100%" border="0" cellspacing="0" cellpadding="0">
 			            <tr>
 			              <td class="bodycopy">
-			                <p> Hi TrinethraReddy </p>
-			                <p> Google just blocked someone from signing into your Google account thinethralamur@gmail.com form an app that may put your account at rist.</p> 
+			                <p> Hello {{name}}, </p>
+			                <p style="margin-left: 3%"> Your license key for {product_name} is expiring within {30 days}.</p> 
+			                <p style="margin-left: 3%"> Your license expires on &#09;: {expiration}. <br/>							
+									Required Renew date &#09; : {renewal_date}.</p>
 			              </td>
 			            </tr>
-			            <tr>
-			              <td style="padding: 20px 0 0 0;">
-			                <table class="buttonwrapper" bgcolor="#e05443" border="0" cellspacing="0" cellpadding="0">
-			                  <tr>
-			                    <td class="button" height="45">
-			                      <a href="#">Click to reset</a>
-			                    </td>
-			                  </tr>
-			                </table>
-			              </td>
-			            </tr>
-			            <tr >
-			            	<td style="padding: 20px 0 0 0;"> If you are not able to access the above link, copy  paste the entire url in your browser's address bar and press enter. 
-			            		<a href="https://www.innominds.com/resetpassword?token=9u9fb0fsqc2dkrevl9hj7uvc09" >https://www.innominds.com/resetpassword?token=9u9fb0fsqc2dkrevl9hj7uvc09
-			            		</a>
-			            	</td>
-			            </tr>
+			          
+			           
 			          </table>
 			        </td>
 			      </tr>
